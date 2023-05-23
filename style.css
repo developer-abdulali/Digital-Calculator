@@ -4,6 +4,7 @@
     margin: 0 auto;
     margin-top: 150px;
     border: 1px solid black;
+    border-radius: 5px;
 }
 .input{
     margin-top: 10px;
@@ -11,8 +12,8 @@
     height: 60px;
     margin-top: 0px;
     color: white;
-    border: none;
-    width: 98.3%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.539);
+    width: 98%;
     text-align: right;
     background: transparent;
     outline: none;
@@ -41,4 +42,13 @@
 
 #zerobtn{
 width: 187px ;
+}
+h1{
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
 }
